@@ -193,7 +193,7 @@ header {
   }
 }
 
-.progress-line .html {
+.progress-line .ejs {
   width: 85%;
 }
 .progress-line .css {
@@ -202,14 +202,14 @@ header {
 .progress-line .javascript {
   width: 70%;
 }
-.progress-line .php {
-  width: 50%;
+.progress-line .nodejs {
+  width: 65%;
 }
-.progress-line .sql {
-  width: 50%;
+.progress-line .mongodb {
+  width: 75%;
 }
-.progress-line .c {
-  width: 70%;
+.progress-line .express {
+  width: 65%;
 }
 
 .bar .progress-line span::before {
@@ -238,7 +238,7 @@ header {
   border-radius: 3px;
 }
 
-.progress-line .html::after {
+.progress-line .ejs::after {
   content: "85%";
 }
 .progress-line .css::after {
@@ -247,14 +247,14 @@ header {
 .progress-line .javascript::after {
   content: "70%";
 }
-.progress-line .php::after {
-  content: "50%";
+.progress-line .nodejs::after {
+  content: "65%";
 }
-.progress-line .c::after {
-  content: "70%";  
+.progress-line .express::after {
+  content: "65%";  
 }
-.progress-line .sql::after {
-  content: "50%";
+.progress-line .mongodb::after {
+  content: "75%";
 }
 
 .navbar.solid {
